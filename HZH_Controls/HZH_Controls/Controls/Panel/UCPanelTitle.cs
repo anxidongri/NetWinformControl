@@ -124,7 +124,16 @@ namespace HZH_Controls.Controls
             get { return lblTitle.Text; }
             set { lblTitle.Text = value; }
         }
-
+        /// <summary>
+        /// Gets or sets the title height.
+        /// </summary>
+        /// <value>The title height</value>
+        [Description("面板标题高度"), Category("自定义")]
+        public int TitleHeight
+        {
+            get { return lblTitle.Height; }
+            set { lblTitle.Height = value; }
+        }
         /// <summary>
         /// 获取或设置控件的前景色。
         /// </summary>
@@ -168,7 +177,6 @@ namespace HZH_Controls.Controls
                 lblTitle.Image = null;
             }
         }
-
         /// <summary>
         /// The bit down
         /// </summary>

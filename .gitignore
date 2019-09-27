@@ -7,3 +7,5 @@
 /HZH_Controls/HZH_Controls/*.nupkg
 /HZH_Controls/Help
 /HZH_Controls/HZH_Controls.sln.GhostDoc.xml
+/HZH_Controls/.vs/HZH_Controls/v16/Server/sqlite3/db.lock
+/HZH_Controls/.vs/HZH_Controls/v16/Server/sqlite3
